@@ -1,0 +1,348 @@
+/** Global Reset **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** Container Setup **/
+.container {
+    width: calc(100% - 376px);
+    margin: auto;
+}
+
+/** Root Variables **/
+:root {
+    --mainColor: #FB2E86;
+    --subColor1: #0D0E43;
+    --mainFont: "Lato", sans-serif;
+    --subFont: "Josefin Sans", sans-serif;
+    --whithecolor: #fff;
+}
+
+/** Typography Base **/
+body {
+    font-family: var(--mainFont);
+}
+
+/** Link Styling **/
+a {
+    text-decoration: none;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-line-throug {
+    text-decoration: line-through;
+}
+
+/** Fonts Families **/
+.text-mainfont {
+    font-family: var(--mainFont);
+}
+
+.text-subfont {
+    font-family: var(--subFont);
+}
+
+/** Text Colors **/
+.white-color {
+    color: var(--whithecolor);
+}
+
+.active-color {
+    color: var(--mainColor);
+}
+
+.text-subcolor {
+    color: var(--subColor1);
+}
+
+/** Text Align **/
+.text-center {
+    text-align: center;
+}
+
+/** Font Sizes **/
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-42 {
+    font-size: 42px;
+}
+
+.font-size-52 {
+    font-size: 52px;
+}
+
+/** Font Weights **/
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+/** Line Heights **/
+.line-height-20 {
+    line-height: 20px;
+}
+
+.line-height-100 {
+    line-height: 100%;
+}
+
+/** Background Colors **/
+.background-white {
+    background-color: #fff;
+}
+
+.active-background {
+    background-color: var(--mainColor);
+}
+
+/** Sizing Boxes **/
+.width-height-11 {
+    width: 19px;
+    height: 19px;
+}
+
+.width-height-15 {
+    width: 15px;
+    height: 15px;
+}
+
+.width-height-17 {
+    width: 17px;
+    height: 17px;
+}
+
+.width-height-18 {
+    width: 18px;
+    height: 18px;
+}
+
+.width-height-30 {
+    width: 30px;
+    height: 30px;
+}
+
+.width-height-65 {
+    width: 65px;
+    height: 65px;
+}
+
+/** Margin Top **/
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-17 {
+    margin-top: 17px;
+}
+
+.margin-top-27 {
+    margin-top: 27px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+/** Margin Bottom **/
+.margin-bottom-19 {
+    margin-bottom: 19px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+/** Margin Left **/
+.margin-left-10 {
+    margin-left: 5px;
+}
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.margin-left-22 {
+    margin-left: 22px;
+}
+
+.margin-left-24 {
+    margin-left: 24px;
+}
+
+/** Padding Top **/
+.padding-30 {
+    padding: 30px 0px;
+}
+
+.padding-11 {
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+.padding-15-71 {
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.padding-bottom-17 {
+    padding-bottom: 17px;
+}
+
+/** Flex Display **/
+.display_flex {
+    display: flex;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+/** Flex Align **/
+.justify-align-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-between,
+.justify_between {
+    justify-content: space-between;
+}
+
+.raw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** Gap Spacing **/
+.gap_2 {
+    gap: 2px;
+}
+
+.gap_5 {
+    gap: 5px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.gap_15 {
+    gap: 15px;
+}
+
+.gap_20 {
+    gap: 20px;
+}
+
+.gap_25 {
+    gap: 25px;
+}
+
+.gap_30 {
+    gap: 30px;
+}
+
+.gap_35 {
+    gap: 35px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-58 {
+    gap: 58px;
+}
+
+/** Column Gaps **/
+.gap-60-column {
+    row-gap: 60px;
+}
+
+.gap-35-column {
+    row-gap: 25px;
+}
+
+.gap-8-column {
+    row-gap: 8px;
+}
+
+/** Button States **/
+.pointer {
+    cursor: pointer;
+}
+
+.border-0 {
+    border: none;
+}
+
+.outline-0 {
+    outline: none;
+}
+
+/** Image Settings **/
+.img-fluied {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/** Border Radius **/
+.border-radius-8 {
+    border-radius: 8px;
+}
+
+/** List Style **/
+li {
+    list-style-type: none;
+}
